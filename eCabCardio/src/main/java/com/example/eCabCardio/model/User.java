@@ -7,6 +7,8 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@MappedSuperclass
+@Table(name = "users")
 public class User {
 
     @Id
